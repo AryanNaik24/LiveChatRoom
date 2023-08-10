@@ -34,7 +34,7 @@
 }
 .footer{
     margin-top: 40px;
-    background: rgb(236, 236, 236);
+    background: #2c5c7b;
     width: 100%;
     text-align: center;
 }
@@ -89,3 +89,69 @@ padding: 5px;
     font-size: 10px;
     color: darkgray;
   }
+
+/* Set background and text color */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    border-radius: 8px;
+    margin-top: 50px;
+    background-color: #2c5c7b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Join form styling */
+.join-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.join-form button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.join-form button:hover {
+    background-color: #c0392b;
+}
+
+.error{
+    background-color: black;
+    border: 1px solid;
+}
+.foot p {
+    color: #f4f4f4;
+}
+
+.LiveChat{
+    width: 100%;
+    background-color: #2c5c7b;
+    text-align: center;
+    color: #f4f4f4;
+}
+.LiveChat h1 {
+    padding: 20px;
+}

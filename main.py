@@ -22,6 +22,7 @@ app.config["SECRET_KEY"] = key
 socketio = SocketIO(app)
 
 
+
 #rooms set as a dictionary
 #stores info on the different rooms made
 rooms = {}
@@ -147,7 +148,7 @@ def disconnect():
     #leaves the room
     leave_room(room)
     
-    #delets room if noone remaining
+    #deletes room if noone remaining
     if room in rooms:
         rooms[room]["members"] -=1
         if rooms[room]["members"] <=0:
